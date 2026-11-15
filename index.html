@@ -52,6 +52,42 @@
       height: 100%;
       border: 0;
     }
+
+    .downloads {
+      width: min(100%, 420px);
+      margin: 2rem auto 0;
+      text-align: left;
+    }
+
+    .downloads summary {
+      padding: 1rem 1.25rem;
+      border: 1px solid #343a4b;
+      border-radius: 12px;
+      background: #1a1f2c;
+      cursor: pointer;
+      font-weight: 700;
+    }
+
+    .downloads summary:hover,
+    .downloads summary:focus-visible {
+      background: #242b3b;
+    }
+
+    .download-link {
+      display: block;
+      margin-top: 0.5rem;
+      padding: 1rem 1.25rem;
+      border-radius: 12px;
+      background: #1a1f2c;
+      color: #aebfff;
+      text-decoration: none;
+    }
+
+    .download-link:hover,
+    .download-link:focus-visible {
+      background: #242b3b;
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
@@ -78,6 +114,11 @@
         allowfullscreen>
       </iframe>
     </div>
+
+    <details class="downloads">
+      <summary>Downloads</summary>
+      <a class="download-link" href="EWE.pdf" download>Download the EWE PDF</a>
+    </details>
   </main>
 </body>
 </html>
