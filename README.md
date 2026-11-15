@@ -1,2 +1,56 @@
-# outcast
-idk
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="https://arjico_outcast" content="width=device-width, initial-scale=1">
+  <title>outcast</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      min-height: 100vh;
+      margin: 0;
+      display: grid;
+      place-items: center;
+      padding: 2rem;
+      background: #10131c;
+      color: #f5f6fa;
+      font-family: system-ui, sans-serif;
+    }
+
+    main {
+      width: min(100%, 900px);
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0 0 0.5rem;
+      font-size: clamp(2rem, 5vw, 3.5rem);
+    }
+
+    p {
+      margin: 0 0 2rem;
+      color: #aeb5c5;
+    }
+
+    video {
+      display: block;
+      width: 100%;
+      max-height: 75vh;
+      background: #000;
+      border-radius: 16px;
+      box-shadow: 0 20px 60px #0008;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>tuffstes video everrrr</h1>
+
+    <video controls playsinline preload="metadata">
+      <source src="outcast.mp4" type="video/mp4">
+      
+    </video>
+  </main>
+</body>
+</html>
